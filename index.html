@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>zapatos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+:root{
+  --granate:#7a1f2b;
+}
+
+body{
+  font-family:'Segoe UI', sans-serif;
+}
+
+/* NAVBAR */
+.bg-granate{
+  background:var(--granate);
+}
+
+/* REDES */
+.redes img{
+  width:60px;
+  margin:0 15px;
+  transition:.3s;
+}
+.redes img:hover{
+  transform:scale(1.15);
+}
+
+/* FOOTER */
+footer{
+  background:var(--granate);
+  color:#fff;
+  padding:30px 0;
+  text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-dark bg-granate">
+  <div class="container d-flex justify-content-between align-items-center">
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.jpg" alt="Logo" width="120">
+    </a>
+
+    <a href="https://wa.me/573002488901s" target="_blank">
+      <img src="img/whatsapp.png" width="45">
+    </a>
+  </div>
+</nav>
+
+<!-- ================= SLIDER (CONTAINER) ================= -->
+<div class="container my-4">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner rounded">
+
+      <div class="carousel-item active">
+        <img src="img/slider1.png" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slider2.png" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slider3.png" class="d-block w-100" alt="">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slider4.png" class="d-block w-100" alt="">
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- ================= NOSOTROS ================= -->
+<section class="container my-5">
+  <h2 class="text-center fw-bold mb-4">NOSOTROS</h2>
+
+  <p class="text-center">
+   Calzado Reyver nace del sueño de una familia de emprendedores echados para adelante, que con trabajo constante, visión y mucho esfuerzo logró convertir una idea en una empresa sólida dentro del sector del calzado. Desde sus inicios, Reyver se ha caracterizado por el compromiso con la calidad, la responsabilidad y el crecimiento continuo, valores que han sido el motor de su desarrollo a lo largo del tiempo. Gracias a su dedicación, la empresa ha aportado de manera significativa al crecimiento financiero y comercial de la sociedad, generando oportunidades y fortaleciendo el mercado nacional. Calzado Reyver se especializa en la comercialización de calzado al por mayor y al detal, atendiendo las necesidades de clientes y comerciantes con un servicio confiable y eficiente. Además, ofrece envíos a todo el país, ampliando su alcance y consolidándose como una marca de confianza que combina tradición familiar, espíritu emprendedor y progreso constante.
+  </p>
+</section>
+
+<!-- ================= IMAGEN IZQUIERDA + TEXTO ================= -->
+<section class="container my-5">
+  <div class="row align-items-center">
+
+    <!-- IMAGEN -->
+    <div class="col-md-6 mb-4 mb-md-0">
+      <img src="img/5.png" class="img-fluid rounded" alt="">
+    </div>
+
+    <!-- TEXTO -->
+    <div class="col-md-6">
+      <p>
+      En Calzado Reyver, la excelente calidad es el sello que distingue cada uno de nuestros productos. Utilizamos materiales seleccionados y procesos de fabricación cuidadosos para garantizar comodidad, resistencia y durabilidad en cada par de zapatos. Nuestra amplia variedad de estilos está diseñada para satisfacer todos los gustos y necesidades, ofreciendo opciones modernas, clásicas y funcionales para damas, caballeros y niños. Cada modelo combina diseño y confort, adaptándose a diferentes ocasiones y estilos de vida. En Calzado Reyver trabajamos para brindar calzado confiable, atractivo y accesible, pensado para acompañar a toda la familia con calidad y buen gusto en cada paso.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section class="container my-5">
+  <h2 class="text-center fw-bold mb-4">CONTACTO</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <ul class="list-group">
+        <li class="list-group-item"><strong>📞 Celular:</strong> 3002488901-3174287058</li>
+        <li class="list-group-item"><strong>📍 Dirección:</strong>calle 15 # 23-62</li>
+        <li class="list-group-item"><strong>✉️ Correo:</strong> zapatosreyver@gmail.com</li>
+        <li class="list-group-item"><strong>🏙️ Ciudad:</strong> Bucaramanga, San Francisco</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REDES ================= -->
+<section class="container my-5 text-center redes">
+  <h2 class="fw-bold mb-4">NUESTRAS REDES SOCIALES</h2>
+  <a href="https://www.facebook.com/groups/calzadoreyverbucaramanga/" target="_blank">
+    <img src="img/facebook.png">
+  </a>
+  <a href="https://www.instagram.com/calzado__reyver/?hl=es" target="_blank">
+    <img src="img/instagram.png">
+  </a>
+</section>
+
+<!-- ================= IMAGEN HORIZONTAL ================= -->
+<section class="container-fluid my-5 p-0">
+  <img src="img/6.png" class="img-fluid w-100" alt="">
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 </p>
+  <p>COLOMBIA-Santander<p>
+  <p>⭐⭐⭐⭐⭐</p>
+  <p>VISITANO!!</p>
+ </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
